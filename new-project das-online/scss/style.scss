@@ -1,0 +1,31 @@
+
+.wrapper{
+	max-width: 1440px;
+	min-height: 100%;
+	display: flex;
+	flex-direction: column;
+	margin: 0px auto;
+	overflow: hidden;
+	font-family: 'Roboto';
+	color: #000
+}
+body{
+	padding-right: calc(23px - (100vw - 100%));
+
+	&.lock{
+		overflow: hidden;
+	}
+}
+@import "_null-style";
+@import "_fonts";
+@import "_repeat-class";
+@import "_icon-fonts";
+@import "_header";
+@import "_main";
+@import "main-sections/first";
+@import "main-sections/services";
+@import "main-sections/enter";
+@import "main-sections/questionary";
+@import "main-sections/questions";
+@import "main-sections/popup";
+@import "_footer";
